@@ -21,6 +21,9 @@ import java.util.Map;
  * 在github中第五次修改了code01，再试一下
  * 在idea中第五次修改code01，测试一下fetch/merge功能
  * 在idea中执行了换行
+ *
+ * 这是github种第六次修改code01，试一下在IDEA开发工具中使用git
+ * 多试几次
  * */
 public class code01 {
     public static void main(String[] args){
@@ -40,7 +43,7 @@ public class code01 {
             numMap.put(nums[i],i);
         }
         //这是一个循环
-        //这个函数的主要代码
+        //主要逻辑
         for (int i = 0; i < nums.length-1; i++) {
             int other = target - nums[i];
             if(numMap.containsKey(other)){
