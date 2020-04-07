@@ -23,6 +23,8 @@ import java.util.Map;
  * 在idea中执行了换行
  *
  * 在idea中进行了第六次修改，试一下在编辑器中使用git
+ * 这是github种第六次修改code01，试一下在IDEA开发工具中使用git
+ * 多试几次
  */
 public class code01 {
     public static void main(String[] args){
@@ -42,7 +44,7 @@ public class code01 {
             numMap.put(nums[i],i);
         }
         //这是一个循环
-        //这个函数的主要代码
+        //主要逻辑
         for (int i = 0; i < nums.length-1; i++) {
             int other = target - nums[i];
             if(numMap.containsKey(other)){
