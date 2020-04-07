@@ -18,9 +18,9 @@ import java.util.Map;
  * 在github中第四次修改了code01
  * 在idea中第四次修改code01，测试一下fetch/merge功能
  *
+ * 在github中第五次修改了code01，再试一下
  * 在idea中第五次修改code01，测试一下fetch/merge功能
- * 在idea中执行了换行
- */
+ * 在idea中执行了换行 */
 public class code01 {
     public static void main(String[] args){
         //这是在main函数中测试twosun函数的功能
@@ -33,6 +33,7 @@ public class code01 {
     }
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
+        //这是一个map
         Map<Integer,Integer> numMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
             numMap.put(nums[i],i);
