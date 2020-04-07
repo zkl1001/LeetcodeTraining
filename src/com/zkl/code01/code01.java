@@ -15,6 +15,7 @@ import java.util.Map;
  * 看下fetch的方式 *
  * 在idea中第三次修改code01，测试一下fetch功能
  *
+ * 在github中第四次修改了code01
  * 在idea中第四次修改code01，测试一下fetch/merge功能
  */
 public class code01 {
