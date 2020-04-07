@@ -10,6 +10,8 @@ import java.util.Map;
  * 这是在github中第二次修改code01
  * 看下是什么结果
  * 这是在idea中第二次修改code01
+ *
+ * 在idea中第三次修改code01，测试一下fetch功能
  */
 public class code01 {
     public static void main(String[] args){
@@ -25,6 +27,8 @@ public class code01 {
         for (int i = 0; i < nums.length; i++) {
             numMap.put(nums[i],i);
         }
+        //这是一个循环
+        //这个函数的主要代码
         for (int i = 0; i < nums.length-1; i++) {
             int other = target - nums[i];
             if(numMap.containsKey(other)){
