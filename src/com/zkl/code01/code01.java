@@ -5,46 +5,20 @@ import java.util.Map;
 
 /**
  * Created by ZKL on 2018/11/14  17:39
- * hello
- * 这是直接在github中修改codeo1 
- * 这是在github中第二次修改code01
- * 看下是什么结果
- * 这是在idea中第二次修改code01
- *
- * 这是在github中第三次修改code01
- * 看下fetch的方式 *
- * 在idea中第三次修改code01，测试一下fetch功能
- *
- * 在github中第四次修改了code01
- * 在idea中第四次修改code01，测试一下fetch/merge功能
- *
- * 在github中第五次修改了code01，再试一下
- * 在idea中第五次修改code01，测试一下fetch/merge功能
- * 在idea中执行了换行
- *
- * 在idea中进行了第六次修改，试一下在编辑器中使用git
- * 这是github种第六次修改code01，试一下在IDEA开发工具中使用git
- * 多试几次
  */
 public class code01 {
     public static void main(String[] args){
-        //这是在main函数中测试twosun函数的功能
         int[] nums = {3,2,4};
         int target = 6;
         int[] result = code01.twoSum(nums,target);
-        //把结果输出
         System.out.println(result[0]+","+result[1]);
-        //结束
     }
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
-        //这是一个map
         Map<Integer,Integer> numMap = new HashMap<Integer, Integer>();
         for (int i = 0; i < nums.length; i++) {
             numMap.put(nums[i],i);
         }
-        //这是一个循环
-        //主要逻辑
         for (int i = 0; i < nums.length-1; i++) {
             int other = target - nums[i];
             if(numMap.containsKey(other)){
@@ -55,7 +29,6 @@ public class code01 {
                 }
             }
         }
-        //返回一个结果
         return result;
     }
 }
