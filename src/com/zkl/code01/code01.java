@@ -6,10 +6,10 @@ import java.util.Map;
 /**
  * Created by ZKL on 2018/11/14  17:39
  * hello
- * 这是直接在github中修改codeo1
- * 嘿嘿 
- * 这是在idea中修改code01，
- * 试着解决冲突中 */
+ * 这是直接在github中修改codeo1 
+ * 这是在github中第二次修改code01
+ * 看下是什么结果
+ */
 public class code01 {
     public static void main(String[] args){
         int[] nums = {3,2,4};
@@ -33,6 +33,7 @@ public class code01 {
                 }
             }
         }
+        //返回一个结果
         return result;
     }
 }
