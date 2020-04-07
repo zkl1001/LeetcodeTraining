@@ -20,7 +20,8 @@ import java.util.Map;
  *
  * 在github中第五次修改了code01，再试一下
  * 在idea中第五次修改code01，测试一下fetch/merge功能
- * 在idea中执行了换行 */
+ * 在idea中执行了换行
+ * */
 public class code01 {
     public static void main(String[] args){
         //这是在main函数中测试twosun函数的功能
