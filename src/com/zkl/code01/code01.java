@@ -6,6 +6,8 @@ import java.util.Map;
 /**
  * Created by ZKL on 2018/11/14  17:39
  * hello
+ * 这是在idea中修改code01，
+ * 试着解决冲突中
  */
 public class code01 {
     public static void main(String[] args){
