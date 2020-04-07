@@ -10,6 +10,9 @@ import java.util.Map;
  * 这是在github中第二次修改code01
  * 看下是什么结果
  * 这是在idea中第二次修改code01
+ *
+ * 这是在github中第三次修改code01
+ * 看下fetch的方式
  */
 public class code01 {
     public static void main(String[] args){
@@ -17,7 +20,9 @@ public class code01 {
         int[] nums = {3,2,4};
         int target = 6;
         int[] result = code01.twoSum(nums,target);
+        //把结果输出
         System.out.println(result[0]+","+result[1]);
+        //结束
     }
     public static int[] twoSum(int[] nums, int target) {
         int[] result = new int[2];
