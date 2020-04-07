@@ -6,12 +6,11 @@ import java.util.Map;
 /**
  * Created by ZKL on 2018/11/14  17:39
  * hello
- * 这是直接在github中修改codeo1
- * 嘿嘿 
- * 这是在idea中修改code01，
- * 试着解决冲突中 */
+ * 这是在idea中第二次修改code01
+ */
 public class code01 {
     public static void main(String[] args){
+        //这是在main函数中测试twosun函数的功能
         int[] nums = {3,2,4};
         int target = 6;
         int[] result = code01.twoSum(nums,target);
